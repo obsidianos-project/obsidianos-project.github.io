@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #241a2a;
+    margin: 0;
+    padding: 7px;
+}
+
+p {
+    cursor: default;
+}
+
+.title {
+    font-size: 80px;
+    color: #6f459c;
+    font-family: 'DM Serif Display';
+    margin: 0;
+}
+
+.heading {
+    font-size: 30px;
+    color: #6f459c;
+    font-family: 'Inter';
+    margin: 15px 0 0 0;
+}
+
+.subheading {
+    font-size: 15px;
+    color: #6f459c;
+    font-family: 'Inter';
+    margin: 15px 0 0 0;
+}
+
+.button {
+    margin: 15px 0 0 0;
+    background: linear-gradient(to right, #6f459c, #49449c);
+    font-family: 'Inter';
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.27s linear;
+}
+
+.button:hover {
+    filter: brightness(0.9);
+    transform: translateY(-1px);
+}
+
+.link {
+    color: #6f459c;
+}
