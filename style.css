@@ -8,11 +8,17 @@ body {
 
 p {
     cursor: default;
+    background: linear-gradient(to right, #6f459c, #49449c);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    color: transparent;
 }
 
 .title {
     font-size: 80px;
-    color: #6f459c;
     font-family: 'Inter';
     letter-spacing: -0.02em;
     margin: 0;
@@ -20,14 +26,12 @@ p {
 
 .heading {
     font-size: 30px;
-    color: #6f459c;
     font-family: 'Inter';
     margin: 15px 0 0 0;
 }
 
 .subheading {
     font-size: 15px;
-    color: #6f459c;
     font-family: 'Inter';
     margin: 15px 0 0 0;
 }
