@@ -4,3 +4,10 @@ function openPage(url) {
         newWindow.focus();
     }
 }
+
+function openPageInSameTab(url) {
+    const currentWindow = window.open(url, '_self');
+    if (currentWindow) {
+        currentWindow.focus();
+    }
+}
